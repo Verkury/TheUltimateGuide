@@ -19,3 +19,18 @@ print(name, age)
 name, age = age, name
 print(name, age)
 # Вывод: 26 Mark
+
+# Переменной можно задать новое значение
+intager = 462
+
+print(intager)
+# Вывод: 462
+
+# В том числе значение другого типа (при этом тип переменной изментся)
+print(type(intager))
+# Вывод: <class 'int'>
+
+intager = "intager"
+
+print(type(intager))
+# Вывод: <class 'str'>
